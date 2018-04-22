@@ -1,0 +1,3 @@
+rootProject.name = 'psapp'
+
+include ':app'

@@ -1,0 +1,133 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [com.facebook.react:react-native:0.54.4] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/d69eb88b1b2b8d3ccd67f9e06a295215/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/dad8294010b809e22c54314c4a38e903/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:23.0.1] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/4373f6914456b577c5cee68a7bbb14ac/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/bf1250587e7e477570c77f50c1fee8ca/AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/e2fba13f7ddf3c15d547dccfb2477762/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/e87d38151b4fa2ee58be65868e15062f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/8d5bff7f6a5604fb275367c010f0aad5/AndroidManifest.xml:1:1-4:12
+MERGED from [org.webkit:android-jsc:r174650] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/5776870408423f064c2a010a40a5ea3a/AndroidManifest.xml:1:1-3:12
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/5df70a4b9019f786a7e6f78e4e774f16/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/7d8f99f4110fb1074ad2377bf106656b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/83c2cbc3921ba602390f81b33ae3c9dd/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/e8ec040a2c47f31d9f5c5d6a814df342/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+	package
+		ADDED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:2:5-24
+		INJECTED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.54.4] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/d69eb88b1b2b8d3ccd67f9e06a295215/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.54.4] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/d69eb88b1b2b8d3ccd67f9e06a295215/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:5:22-75
+application
+ADDED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [com.facebook.react:react-native:0.54.4] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/d69eb88b1b2b8d3ccd67f9e06a295215/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.54.4] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/d69eb88b1b2b8d3ccd67f9e06a295215/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/dad8294010b809e22c54314c4a38e903/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/dad8294010b809e22c54314c4a38e903/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/4373f6914456b577c5cee68a7bbb14ac/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/4373f6914456b577c5cee68a7bbb14ac/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/8d5bff7f6a5604fb275367c010f0aad5/AndroidManifest.xml:3:3-17
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/8d5bff7f6a5604fb275367c010f0aad5/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/5776870408423f064c2a010a40a5ea3a/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/5776870408423f064c2a010a40a5ea3a/AndroidManifest.xml:2:3-17
+	android:label
+		ADDED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:9:7-39
+	android:icon
+		ADDED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:10:7-41
+	android:allowBackup
+		ADDED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:name
+		ADDED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:8:7-38
+activity#com.psapp.MainActivity
+ADDED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:13:7-22:18
+	android:label
+		ADDED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:17:9-51
+	android:configChanges
+		ADDED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:18:9-21:25
+action#android.intent.action.MAIN
+ADDED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:19:13-65
+	android:name
+		ADDED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:19:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:20:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:23:7-84
+	android:name
+		ADDED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:23:17-81
+uses-sdk
+INJECTED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.react:react-native:0.54.4] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/d69eb88b1b2b8d3ccd67f9e06a295215/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.54.4] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/d69eb88b1b2b8d3ccd67f9e06a295215/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/dad8294010b809e22c54314c4a38e903/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/dad8294010b809e22c54314c4a38e903/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/4373f6914456b577c5cee68a7bbb14ac/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/4373f6914456b577c5cee68a7bbb14ac/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/bf1250587e7e477570c77f50c1fee8ca/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/bf1250587e7e477570c77f50c1fee8ca/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/e2fba13f7ddf3c15d547dccfb2477762/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/e2fba13f7ddf3c15d547dccfb2477762/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/e87d38151b4fa2ee58be65868e15062f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/e87d38151b4fa2ee58be65868e15062f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/8d5bff7f6a5604fb275367c010f0aad5/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/8d5bff7f6a5604fb275367c010f0aad5/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/5df70a4b9019f786a7e6f78e4e774f16/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/5df70a4b9019f786a7e6f78e4e774f16/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/7d8f99f4110fb1074ad2377bf106656b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/7d8f99f4110fb1074ad2377bf106656b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/83c2cbc3921ba602390f81b33ae3c9dd/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/83c2cbc3921ba602390f81b33ae3c9dd/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/e8ec040a2c47f31d9f5c5d6a814df342/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/pontuslindstrom/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/e8ec040a2c47f31d9f5c5d6a814df342/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
