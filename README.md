@@ -1,2 +1,2 @@
 # ps-app
-#tjena!
+#tjenare!
