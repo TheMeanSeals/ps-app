@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "159501467445",
+    "firebase_url": "https://terapiappen.firebaseio.com",
+    "project_id": "terapiappen",
+    "storage_bucket": "terapiappen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159501467445:android:8c31a06d320dc8e4",
+        "android_client_info": {
+          "package_name": "com.psapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159501467445-6lcgabhbe5d7p3i7ik6jo862l9nim4qa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.psapp",
+            "certificate_hash": "7e7349661eba20350cce3dd346d7c2a62f9e4cfb"
+          }
+        },
+        {
+          "client_id": "159501467445-c46c1k5luqt75a5kdcsp2u0ii391bork.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjsrbQMcrc85xCd2_-ShiV0MnoQRZ6HLI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159501467445-c46c1k5luqt75a5kdcsp2u0ii391bork.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

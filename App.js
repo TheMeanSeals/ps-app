@@ -1,11 +1,24 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Button } from 'react-native';
+import firebase from 'react-native-firebase';
+
+
 
 export default class App extends React.Component {
-  render() {
+
+/*
+    writeToDb(){
+        firebase.database().ref('testContainer/').set({
+            data: 'tjoho'
+        });
+    }*/
+
+
+    render() {
     return (
       <View style={styles.container}>
-        <Text>Det här är snart världens bästa terapiapp!</Text>
+        <Text>Det här är sndfgdfart  bästa terapiapp!</Text>
+        {/*<Button onPress={() => this.writeToDb()} title={"TRYCK"}/>*/}
       </View>
     );
   }
