@@ -1,24 +1,50 @@
 import React from 'react';
-import { StyleSheet, Text, View, Button } from 'react-native';
+import { StyleSheet, Text, View, Button, TextInput } from 'react-native';
 import firebase from 'react-native-firebase';
 
 
 
-export default class App extends React.Component {
+var root = firebase.database().ref();
+var dataRef = root.child('pontusTestContainer');
 
-/*
-    writeToDb(){
-        firebase.database().ref('testContainer/').set({
-            data: 'tjoho'
+export default class App extends React.Component {
+    constructor(){
+      super();
+      this.state = {text: '', valuesInDb: []};
+    }
+
+    componentDidMount(){
+      let self = this;
+      dataRef.on('value', function(snapshot){
+        var newValuesInDb = [];
+        snapshot.forEach(item => {
+          newValuesInDb.push(item._value.text);
         });
-    }*/
+        self.setState({text: "", valuesInDb: newValuesInDb});
+      });
+    }
+
+    writeToDb(){
+        firebase.database().ref('pontusTestContainer/').push({
+            text: this.state.text
+        });
+        let newState = this.state;
+        newState.text = "";
+        this.setState(newState);
+    }
 
 
     render() {
     return (
       <View style={styles.container}>
-        <Text>Det här är sndfgdfart  bästa terapiapp!</Text>
-        {/*<Button onPress={() => this.writeToDb()} title={"TRYCK"}/>*/}
+        <Text>Mata in data och spara till Firebase.</Text>
+        <TextInput
+          onChangeText={(text) => this.setState({text})}
+          value={this.state.text}/>
+        <Button onPress={() => this.writeToDb()} title={"SPARA"}/>
+        {this.state.valuesInDb.map((item, index) => (
+          <Text key={index}>{item}</Text>
+        ))}
       </View>
     );
   }

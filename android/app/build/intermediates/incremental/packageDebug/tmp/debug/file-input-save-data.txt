@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Apr 22 20:46:56 CEST 2018
+#Mon Apr 23 20:23:49 CEST 2018
 23.set=NATIVE_RESOURCE
 2.base=/Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
 15.set=NATIVE_RESOURCE

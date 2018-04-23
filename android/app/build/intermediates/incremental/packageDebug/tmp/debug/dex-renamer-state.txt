@@ -1,4 +1,4 @@
-#Sun Apr 22 21:08:44 CEST 2018
+#Mon Apr 23 20:23:47 CEST 2018
 base.0=/Users/pontuslindstrom/Documents/GitHub/ps-app/android/app/build/intermediates/transforms/dexMerger/debug/0
 renamed.0=classes.dex
 path.0=classes.dex
