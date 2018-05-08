@@ -1,8 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button, TextInput } from 'react-native';
 import firebase from 'react-native-firebase';
-
-
+import PsychologistList from './src/components/PsychologistList';
 
 var root = firebase.database().ref();
 var dataRef = root.child('pontusTestContainer');
@@ -42,9 +41,7 @@ export default class App extends React.Component {
           onChangeText={(text) => this.setState({text})}
           value={this.state.text}/>
         <Button onPress={() => this.writeToDb()} title={"SPARA"}/>
-        {this.state.valuesInDb.map((item, index) => (
-          <Text key={index}>{item}</Text>
-        ))}
+        <PsychologistList psychologists={this.state.valuesInDb}/>
       </View>
     );
   }
