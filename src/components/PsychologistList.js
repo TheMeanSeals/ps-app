@@ -13,7 +13,7 @@ export default class PsychologistList extends React.Component {
          />
       ))
       return (
-        <ScrollView showsHorizontalScrollIndicator={false}>
+        <ScrollView style={styles.container}>
           {psychologistsOutput}
         </ScrollView>
 
@@ -23,9 +23,6 @@ export default class PsychologistList extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    width: '100%'
   },
 });

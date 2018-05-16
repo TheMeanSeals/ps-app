@@ -4,12 +4,12 @@ import firebase from 'react-native-firebase';
 import PsychologistList from './src/components/PsychologistList';
 
 var root = firebase.database().ref();
-var dataRef = root.child('pontusTestContainer');
+var dataRef = root.child('psychologists');
 
 export default class App extends React.Component {
     constructor(){
       super();
-      this.state = {text: '', valuesInDb: []};
+      this.state = {text: '', psychologists: []};
     }
 
     componentDidMount(){
@@ -17,10 +17,12 @@ export default class App extends React.Component {
       dataRef.on('value', function(snapshot){
         var newValuesInDb = [];
         snapshot.forEach(item => {
-          newValuesInDb.push(item._value.text);
+          newValuesInDb.push(item.val());
         });
-        self.setState({text: "", valuesInDb: newValuesInDb});
+        self.setState({text: "", psychologists: newValuesInDb});
       });
+
+
     }
 
     writeToDb(){
@@ -36,12 +38,7 @@ export default class App extends React.Component {
     render() {
     return (
       <View style={styles.container}>
-        <Text>Mata in data och spara till Firebase.</Text>
-        <TextInput
-          onChangeText={(text) => this.setState({text})}
-          value={this.state.text}/>
-        <Button onPress={() => this.writeToDb()} title={"SPARA"}/>
-        <PsychologistList psychologists={this.state.valuesInDb}/>
+        <PsychologistList psychologists={this.state.psychologists}/>
       </View>
     );
   }
